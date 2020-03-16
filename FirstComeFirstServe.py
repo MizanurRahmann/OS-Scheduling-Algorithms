@@ -24,6 +24,6 @@ if __name__ == '__main__':
     averageTAT = sum(TAT) / n
     averageWT = sum(WT) / n
     print("\n\nSolution: \nAverage Total arrival time: {}\nAverage Waiting time: {}".format(averageTAT, averageWT))
-    print("\nP\tAT\tBT\tCT\tTAT\tWT\t\n")
+    print("\nP\tAT\tBT\tCT\tTAT\tWT\t\n------------------------------------------\n")
     for i in range(n):
         print("{}\t{}\t{}\t{}\t{}\t{}".format(i+1, DATA[i][0], DATA[i][1], CT[i], TAT[i], WT[i]))
