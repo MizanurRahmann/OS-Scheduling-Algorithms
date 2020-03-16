@@ -29,7 +29,7 @@ P       AT      BT      CT      TAT     WT
 4       9       4       16      7       3
 ```
 
-### 1. Shortest Job First:
+### 2. Shortest Job First:
 Shortest Job First (SJF) is an algorithm in which the process having the smallest execution time is chosen for the next execution. It significantly reduces the average waiting time for other processes awaiting execution.
 
 | Process | ArrivalTime | BurstTime | CompletionTime | TurnAroundTime | WaitingTime |
