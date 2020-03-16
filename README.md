@@ -39,7 +39,7 @@ Shortest Job First (SJF) is an algorithm in which the process having the smalles
 |3|2|2|5|3|1|
 |4|4|3|8|4|1|
 
-However the ShortestJobFirst.py program input should be given in ascending order (that means, give the process first, which come first to run this program).
+However, the ShortestJobFirst.py program input should be given in ascending order (that means, give the process first, which come first to run this program).
 ```
 Enter number of process: 4
 0 3
@@ -72,7 +72,8 @@ It is known as a premtive version of SJF(Shortest Job First). In this method, th
 |4|4|4|10|6|2|0|
 |5|5|2|7|2|0|0|
 
-This is not an ideal method to implement it in a shared system where the required CPU time is unknown. However the ShortestJobFirst.py program input should be given in ascending order also (that means, give the process first, which come first to run this program).
+This is not an ideal method to implement it in a shared system where the required CPU time is unknown.
+However, the ShortestRemainingTime.py program input should be given in ascending order also (that means, give the process first, which come first to run this program).
 
 ```
 Enter number of process: 5
